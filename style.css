@@ -566,5 +566,27 @@ footer .text span a:hover{
   .form-container textarea:focus {
     border: 2px solid #4CAF50;
   }
+  .conta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
   
+  .button {
+    display: inline-block;
+    padding: 16px 32px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    background-color: #ff6f00;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #e65c00;
+  }
+   
    
